@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+il<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,7 +29,7 @@
             const apiEndpoint = 'https://5f4hosat20.execute-api.eu-west-1.amazonaws.com/default/nicostore';
 
             // Build the query string
-            const queryString = `?name=${encodeURIComponent(name)}&para1=${encodeURIComponent(email)}`;
+            const queryString = `?name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}`;
 
             try {
                 const response = await fetch(apiEndpoint + queryString, {
